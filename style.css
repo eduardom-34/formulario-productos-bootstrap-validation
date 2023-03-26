@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+}
+
+body{
+    margin: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table-responsive{
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+}
+
+table, td{
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-collapse: collapse;
+}
+
+table, th{
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-collapse: collapse;
+}
+table>th, a{
+    text-decoration: none; 
+    color: white;
+}
+
+table{
+    width: 100%;
+    font-size: 15px;
+    color: #444;
+}
+
+table>thead{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+table>thead th{
+    padding: 10px;
+}
+
+.add-btn{
+    background-color: green;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.action-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+}
+
+.border-btn{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.action-btn>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.action-btn>a:nth-child(1){
+    background-color: blue;
+}
+
+.action-btn>a:nth-child(2){
+    background-color: red;
+}

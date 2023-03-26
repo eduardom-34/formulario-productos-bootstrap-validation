@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Validation</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./producto.css">
+</head>
+<body>
+    <form action="gracias.html" target="_blank">
+        <div>
+            <fieldset class="borde-del-form">
+                <legend class="top-text float-none w-auto">Registro de producto</legend>
+                <div class="block">
+                    <label for="validationDefault01" class="form-label">Codigo: </label>
+                    <input type="number" id="validationDefault01" autocomplete="off" required>
+                </div>
+                <div class="block">
+                    <label for="validationDefault02" class="form-label">Descripcion: </label>
+                    <input type="text" id="validationDefault02" autocomplete="off" required>
+                </div>
+                <div class="block">
+                    <label for="validationDefault03" class="form-label">Codigo de barra: </label>
+                    <input type="number" id="validationDefault03" autocomplete="off" required>
+                </div>
+                <div class="block">
+                    <label for="validationDefault04" class="form-label">Precio unitario: </label>
+                    <input type="number" id="validationDefault04" autocomplete="off" required>
+                </div>
+                <div class="block">
+                    <label for="validationDefault05" class="form-label">Stock: </label>
+                    <input type="number" id="validationDefault05" autocomplete="off" required>
+                </div>
+                <div class="block">
+                    <label for="validationDefault06" class="form-label">Proveedor: </label>
+                    <input type="text" id="validationDefault06" autocomplete="off" required>
+                </div>
+                <div class="block block-color">
+                    <label for="validationDefault06" class="form-label">Estado: </label>
+                    <input class="columnastodo" type="checkbox" id="validationDefault06" autocomplete="off" required>
+                    <p>Activo</p>
+                </div>
+                <div class="block">
+                    <label for="validationDefault07" class="form-label">Categoria: </label>
+                    <select name="cat-selector" id="validationDefault07" autocomplete="off" required>
+                        <option></option>
+                        <option>Categoria 1</option>
+                        <option>Categoria 2</option>
+                        <option>Categoria 3</option>
+                    </select>
+                </div>
+                <div class="both-btn">
+                    <button type="submit" >Guardar</button>
+                    <a href="index.html">Cancelar</a>
+                </div>
+            </fieldset>
+            
+        </div>
+    </form>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

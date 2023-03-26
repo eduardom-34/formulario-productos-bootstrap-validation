@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: aqua;
+}
+h1{
+    font-size: 30px;
+    padding: 40px;
+}
+
+img{
+    padding: 20px;
+}
+a{
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+}
